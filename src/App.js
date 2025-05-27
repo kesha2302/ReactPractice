@@ -1,14 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Prac1 from './Components/Prac1';
+import Prac2 from './Components/Prac2';
+import Prac3 from './Components/Prac3';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,7 +19,12 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+
+      <Prac1/>
+      <Prac2></Prac2>
+      <Prac3/>
+
     </div>
   );
 }
