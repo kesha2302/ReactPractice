@@ -7,30 +7,36 @@ import Prac2 from './Components/Prac2';
 import Prac3 from './Components/Prac3';
 import Home from './Components/Home';
 import Contact from './Components/Contact';
+import HomePage from './Components/HomePage';
+import { Routes, Route } from 'react-router-dom';
+import AboutPage from './Components/AboutPage';
+import Feedback from './Components/Feedback';
+import Prac5 from './Components/Prac5';
+import Prac6 from './Components/Prac6';
 
 function App() {
   return (
     <div className="App">
 
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
+
+      <Routes>
+        <Route path="/" element={<HomePage/>}></Route>
+        <Route path="/About" element={<AboutPage/>}/>
+        <Route path="/Contact" element={<Contact/>}/>
+        <Route path="/Feedback" element={<Feedback/>}/>
+      </Routes>
+
+{/* <Prac5/> */}
+{/* <Prac6/> */}
+
+    {/* <HomePage/> */}
 
       {/* <Prac1/>
       <Prac2></Prac2> */}
       {/* <Prac3/> */}
 
       {/* <Home/> */}
-      <Contact/>
+      {/* <Contact/> */}
 
     </div>
   );

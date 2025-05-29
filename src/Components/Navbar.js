@@ -1,4 +1,5 @@
 import Dropdown from 'react-bootstrap/Dropdown';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -12,18 +13,22 @@ function Navbar() {
     <div className="collapse navbar-collapse" id="navbarColor01">
       <ul className="navbar-nav me-auto">
         <li className="nav-item">
-          <a className="nav-link active" href="#">Home
+          {/* <a className="nav-link active" href="#">Home
             <span className="visually-hidden">(current)</span>
-          </a>
+          </a> */}
+          <Link className="nav-link" to='/' >Home</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Features</a>
+          {/* <a className="nav-link" href="#">About</a> */}
+          <Link className="nav-link" to='/About' >About</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Pricing</a>
+          {/* <a className="nav-link" href="#">Contact</a> */}
+          <Link className="nav-link" to='/Contact' >Contact</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">About</a>
+          {/* <a className="nav-link" href="#">Feedback</a> */}
+          <Link className="nav-link" to='/Feedback' >Feedback</Link>
         </li>
         {/* <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
