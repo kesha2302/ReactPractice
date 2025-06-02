@@ -16,6 +16,9 @@ import Prac6 from './Components/Prac6';
 import FunProp from './Components/FunProp';
 import ClassProp from './Components/ClassProp';
 import ClassState from './Components/ClassState';
+import Styling from './Components/Styling';
+import EventBinding from './Components/EventBinding';
+import ConditionalRendering from './Components/ConditionalRendering';
 
 function App() {
   return (
@@ -45,7 +48,11 @@ function App() {
 
 
      {/* <ClassProp  name="kesha" subject="Maths" others={{email:'xyz@gmail.com', lname:'patel'}}/> */}
-     <ClassState/>
+     {/* <ClassState/> */}
+     {/* <Styling paragraph={true}/> */}
+     {/* <ConditionalRendering/> */}
+     <EventBinding/>
+
     </div>
   );
 }
