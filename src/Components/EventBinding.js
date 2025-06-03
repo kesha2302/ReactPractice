@@ -9,7 +9,7 @@ export class EventBinding extends Component {
            message:"Hello "
         }
   
-        this.clickhandler = this.clickhandler.bind(this)  
+        // this.clickhandler = this.clickhandler.bind(this)  
       }
       
       // using below code error will occur. So that is why event binding is done in react classcomponent
@@ -51,7 +51,7 @@ export class EventBinding extends Component {
 
         {/* Approach 4: Use an arrow fun  as a class property */}
         {/* comment this.bind in constructor and clickhandler fun */}
-        <button onClick={this.clickhandler}>Clik Me</button>
+        {/* <button onClick={this.clickhandler}>Clik Me</button> */}
       </div>
     )
   }

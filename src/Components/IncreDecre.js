@@ -18,6 +18,10 @@ export class IncreDecre extends Component {
     //     console.log(this.state.count)
     // }
 
+//  second argument to setState() — a callback function
+    // The callback after setState is useful when you want to access the updated value of state.
+    // Without the callback, console.log(this.state.count) might still show the old value due to setState() being asynchronous.
+    
     Increment(){
         this.setState({
             count:this.state.count+1

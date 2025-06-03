@@ -19,6 +19,10 @@ import ClassState from './Components/ClassState';
 import Styling from './Components/Styling';
 import EventBinding from './Components/EventBinding';
 import ConditionalRendering from './Components/ConditionalRendering';
+import IncreDecre from './Components/IncreDecre';
+import Pcomponent from './Components/Pcomponent';
+import List from './Components/List';
+import List2 from './Components/List2';
 
 function App() {
   return (
@@ -51,7 +55,11 @@ function App() {
      {/* <ClassState/> */}
      {/* <Styling paragraph={true}/> */}
      {/* <ConditionalRendering/> */}
-     <EventBinding/>
+     {/* <EventBinding/> */}
+     {/* <Pcomponent/> */}
+     {/* <List/> */}
+     {/* <List2/> */}
+     <IncreDecre/>
 
     </div>
   );
