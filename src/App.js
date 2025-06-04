@@ -23,6 +23,11 @@ import IncreDecre from './Components/IncreDecre';
 import Pcomponent from './Components/Pcomponent';
 import List from './Components/List';
 import List2 from './Components/List2';
+import Portal2 from './Components/Portal2';
+import FormHandling from './Components/FormHandling';
+import Fragment from './Components/Fragment';
+import Portal1 from './Components/Portal1';
+import MultiCarousel from './Components/MultiCarousel';
 
 function App() {
   return (
@@ -59,7 +64,13 @@ function App() {
      {/* <Pcomponent/> */}
      {/* <List/> */}
      {/* <List2/> */}
-     <IncreDecre/>
+     {/* <IncreDecre/> */}
+     {/* <FormHandling/> */}
+     {/* <Fragment/> */}
+     {/* <Portal1/>
+     <Portal2/> */}
+     <MultiCarousel/>
+     
 
     </div>
   );
