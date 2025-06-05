@@ -28,6 +28,10 @@ import FormHandling from './Components/FormHandling';
 import Fragment from './Components/Fragment';
 import Portal1 from './Components/Portal1';
 import MultiCarousel from './Components/MultiCarousel';
+import PureComp from './Components/PureComp';
+import PureComp2 from './Components/PureComp2';
+import LifeCycle1 from './Components/LifeCycle1';
+import LifeCycle3 from './Components/LifeCycle3';
 
 function App() {
   return (
@@ -69,8 +73,12 @@ function App() {
      {/* <Fragment/> */}
      {/* <Portal1/>
      <Portal2/> */}
-     <MultiCarousel/>
-     
+     {/* <MultiCarousel/> */}
+     {/* <LifeCycle1/> */}
+     {/* <LifeCycle3/> */}
+     {/* <PureComp/> */}
+     <PureComp2/>
+
 
     </div>
   );
