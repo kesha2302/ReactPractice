@@ -32,6 +32,10 @@ import PureComp from './Components/PureComp';
 import PureComp2 from './Components/PureComp2';
 import LifeCycle1 from './Components/LifeCycle1';
 import LifeCycle3 from './Components/LifeCycle3';
+import ErrorBoundary from './Components/ErrorBoundary';
+import Fruits from './Components/Fruits';
+import FwrRef from './Components/FwrRef';
+import FwrParent from './Components/FwrParent';
 
 function App() {
   return (
@@ -77,7 +81,18 @@ function App() {
      {/* <LifeCycle1/> */}
      {/* <LifeCycle3/> */}
      {/* <PureComp/> */}
-     <PureComp2/>
+     {/* <PureComp2/> */}
+
+     {/* <ErrorBoundary>
+      <Fruits name="Apple"/>
+      <Fruits name="Orange"/>
+      <Fruits name="Broccoli"/>
+     </ErrorBoundary> */}
+
+     {/* <FwrRef/> */}
+     <FwrParent/>
+   
+       
 
 
     </div>
